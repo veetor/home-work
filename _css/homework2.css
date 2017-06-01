@@ -1,0 +1,71 @@
+body{
+	margin-top: -35px;
+	background: url(../_img/imagem1.jpg) fixed;
+	background-size: cover;
+}
+h4{
+	text-align: center;
+	font-size: 55px;
+	font-family: arial;
+	color: black;
+}
+h4:hover{
+	transition: 0.4s;
+}
+.SINOPSE{
+	margin-top:-60px;
+}
+p{
+	text-align: center;
+	white-space: pre-wrap;
+	font-family: arial;
+}
+video{
+	margin-left:25%;
+	width: 50%;
+	height: auto;
+}
+video:hover{
+	transition: 0.5s;
+}
+h1{
+	text-align: center;
+}
+.audio{
+	margin-left: 40%;
+	filter: saturate(0);
+}
+audio:hover{
+	transition: 0.3s;
+	filter: saturate(1);
+	cursor: pointer;
+}
+.op{
+	margin-left: 40%;
+	width: 300px;
+	height: 200px;
+}
+img{
+	margin-left: 25%;
+	width: 50%;
+	height: auto;
+	filter: saturate(0.3);
+}
+img:hover{
+	transition: 0.5s;
+	filter: saturate(1);
+	transform: scale(0.99);
+	cursor: not-allowed;
+}
+footer{
+	text-align: center;
+	font-size: 20px;
+}
+.social{
+	margin-left: 1%;
+	width: 20px;
+	height: 20px;
+}
+.social:hover{
+	cursor: pointer;
+}
